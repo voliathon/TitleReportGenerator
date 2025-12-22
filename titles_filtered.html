@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>FFXI Titles (Filtered)</title>
+<style>
+table { border-collapse: collapse; width: 100%; font-family: Arial, sans-serif; }
+th, td { border: 1px solid #aaa; padding: 6px 10px; vertical-align: top; }
+th { cursor: pointer; background: #f0f0f0; user-select: none; }
+th:hover { background: #e0e0e0; }
+#rowCount { margin-bottom: 8px; font-weight: bold; }
+</style>
+</head>
+<body>
+
+<div id="rowCount">Rows: 0</div>
+
+<table id="titlesTable">
+  <thead>
+    <tr>
+      <th onclick="sortTable(0)">Title</th>
+      <th onclick="sortTable(1)">How to Obtain</th>
+      <th onclick="sortTable(2)">Title NPC</th>
+      <th onclick="sortTable(3)">Enemy Tag</th>
+    </tr>
+  </thead>
+  <tbody>
+<tr><td>A Friend Indeed</td><td>Quest : <a href="https://www.bg-wiki.com/ffxi/Mixed_Signals" title="Mixed Signals">Mixed Signals</a></td><td>Tuh Almobankha</td><td></td></tr>
+<tr><td>Accomplished Alchemist</td><td>Item : <a href="https://www.bg-wiki.com/ffxi/Emeralda" title="Emeralda">Emeralda</a></td><td>Styi Palneh</td><td></td></tr>
+<tr><td>Accomplished Angler</td><td>Item : <a href="https://www.bg-wiki.com/ffxi/Fishing_Hole_Map" title="Fishing Hole Map">Fishing Hole Map</a></td><td>Burute-Sorute</td><td></td></tr>
+<tr><td>Accomplished Blacksmith</td><td>Item : <a href="https://www.bg-wiki.com/ffxi/Mastersmith_Anvil" title="Mastersmith Anvil">Mastersmith Anvil</a></td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Accomplished Boneworker</td><td>Item : <a href="https://www.bg-wiki.com/ffxi/Drogaroga%27s_Fang" title="Drogaroga's Fang">Drogaroga's Fang</a></td><td>Burute-Sorute</td><td></td></tr>
+<tr><td>Accomplished Carpenter</td><td>Item : <a href="https://www.bg-wiki.com/ffxi/Drawing_Desk" title="Drawing Desk">Drawing Desk</a></td><td>Burute-Sorute</td><td></td></tr>
+<tr><td>Accomplished Chef</td><td>Item : <a href="https://www.bg-wiki.com/ffxi/Cordon_Bleu_Set" title="Cordon Bleu Set">Cordon Bleu Set</a></td><td>Burute-Sorute</td><td></td></tr>
+<tr><td>Accomplished Goldsmith</td><td>Item : <a href="https://www.bg-wiki.com/ffxi/Fool%27s_Gold" title="Fool's Gold">Fool's Gold</a></td><td>Styi Palneh</td><td></td></tr>
+<tr><td>Accomplished Tanner</td><td>Item : <a href="https://www.bg-wiki.com/ffxi/Golden_Fleece" title="Golden Fleece">Golden Fleece</a></td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Accomplished Weaver</td><td>Item : <a href="https://www.bg-wiki.com/ffxi/Gilt_Tapestry" title="Gilt Tapestry">Gilt Tapestry</a></td><td>Burute-Sorute</td><td></td></tr>
+<tr><td>Agrarian Tutelar</td><td><a href="https://www.bg-wiki.com/ffxi/Garden_Furrows" title="Garden Furrows">Garden Furrows</a> : Gather 1000 times.</td><td>Koyol-Futenol</td><td></td></tr>
+<tr><td>Amhuluk Inundater</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Amhuluk" title="Amhuluk">Amhuluk</a></td><td>Zuah Lepahnyu</td><td>Abyssea Enemy</td></tr>
+<tr><td>Anvil Advocate</td><td>Item : <a href="https://www.bg-wiki.com/ffxi/Smithy%27s_Mitts" title="Smithy's Mitts">Smithy's Mitts</a></td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Apothecary Owner</td><td>Item : <a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Alchemist%27s_Signboard" title="Alchemist's Signboard">Alchemist's Signboard</a></td><td>Styi Palneh</td><td></td></tr>
+<tr><td>Apprentice Sommelier</td><td>Quest : <a href="https://www.bg-wiki.com/ffxi/Stop_Your_Whining" title="Stop Your Whining">Stop Your Whining</a></td><td>Quntsu-Nointsu</td><td></td></tr>
+<tr><td>Armory Owner</td><td>Item : <a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Blacksmith%27s_Apron" title="Blacksmith's Apron">Blacksmith's Apron</a></td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Azdaja Abolisher</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Azdaja" title="Azdaja">Azdaja</a></td><td>Zuah Lepahnyu</td><td>Abyssea Enemy</td></tr>
+<tr><td>Babban&#39;s Traveling Companion</td><td>Quest : <a href="https://www.bg-wiki.com/ffxi/Babban_Ny_Mheillea" title="Babban Ny Mheillea">Babban Ny Mheillea</a></td><td>Burute-Sorute</td><td></td></tr>
+<tr><td>Balli☆☆☆☆star Royale</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ballista" title="Ballista">Ballista</a> <a class="image" href="https://www.bg-wiki.com/ffxi/File:Verification.png" title="Verification Needed"></a></td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Ballistager</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ballista" title="Ballista">Ballista</a> <a class="image" href="https://www.bg-wiki.com/ffxi/File:Verification.png" title="Verification Needed"></a></td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Banneret</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ballista" title="Ballista">Ballista</a> <a class="image" href="https://www.bg-wiki.com/ffxi/File:Verification.png" title="Verification Needed"></a></td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Banquet Bestower</td><td>Item : <a href="https://www.bg-wiki.com/ffxi/Culinarian%27s_Apron" title="Culinarian's Apron">Culinarian's Apron</a></td><td>Burute-Sorute</td><td></td></tr>
+<tr><td>Bloodeye Banisher</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Bloodeye_Vileberry" title="Bloodeye Vileberry">Bloodeye Vileberry</a></td><td>Zuah Lepahnyu</td><td>Abyssea Enemy</td></tr>
+<tr><td>Bloody Berserker</td><td>Battlefield : <a href="https://www.bg-wiki.com/ffxi/The_Gathering_Storm" title="The Gathering Storm">The Gathering Storm</a></td><td></td><td></td></tr>
+<tr><td>Bone Beautifier</td><td>Item : <a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Protective_Spectacles" title="Protective Spectacles">Protective Spectacles</a></td><td>Burute-Sorute</td><td></td></tr>
+<tr><td>Boutique Owner</td><td>Item : <a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Weaver%27s_Signboard" title="Weaver's Signboard">Weaver's Signboard</a></td><td>Burute-Sorute</td><td></td></tr>
+<tr><td>Bronze Balli☆star</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ballista" title="Ballista">Ballista</a> <a class="image" href="https://www.bg-wiki.com/ffxi/File:Verification.png" title="Verification Needed"></a></td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Brown Mage Guinea Pig</td><td>NPC : <a href="https://www.bg-wiki.com/ffxi/Parike-Poranke" title="Parike-Poranke">Parike-Poranke</a></td><td>Tuh Almobankha</td><td></td></tr>
+<tr><td>Brown Magic By-Product</td><td>NPC : <a href="https://www.bg-wiki.com/ffxi/Parike-Poranke" title="Parike-Poranke">Parike-Poranke</a></td><td>Tuh Almobankha</td><td></td></tr>
+<tr><td>Brulo Extinguisher</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Brulo" title="Brulo">Brulo</a></td><td>Zuah Lepahnyu</td><td>Abyssea Enemy</td></tr>
+<tr><td>Bukhis Tetherer</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Bukhis" title="Bukhis">Bukhis</a></td><td>Zuah Lepahnyu</td><td>Abyssea Enemy</td></tr>
+<tr><td>Carp Diem</td><td>Quest : <a href="https://www.bg-wiki.com/ffxi/The_Rivalry/The_Competition" title="The Rivalry/The Competition">The Rivalry/The Competition</a></td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Cavern Exemplar</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Skirmish" title="Skirmish">Skirmish</a> : Cirdas Simulacrum (Torso V)</td><td>Debadle-Levadle</td><td></td></tr>
+<tr><td>Cerulean Soldier</td><td>Quest : <a href="https://www.bg-wiki.com/ffxi/Eco-Warrior_(Bastok)" title="Eco-Warrior (Bastok)">Eco-Warrior (Bastok)</a></td><td>Styi Palneh</td><td></td></tr>
+<tr><td>Champion of Abyssea</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Abyssea#Goal_Tracking" title="Abyssea">Abyssea#Goal_Tracking</a> : 7 zones completed.</td><td>Zuah Lepahnyu</td><td></td></tr>
+<tr><td>Champion of the Dawn</td><td>Mission : <a href="https://www.bg-wiki.com/ffxi/Lest_We_Forget" title="Lest We Forget">Lest We Forget</a></td><td></td><td></td></tr>
+<tr><td>Chloris Uprooter</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Chloris" title="Chloris">Chloris</a></td><td>Zuah Lepahnyu</td><td>Abyssea Enemy</td></tr>
+<tr><td>Chocochampion</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Chocobo_Racing" title="Chocobo Racing">Chocobo Racing</a></td><td>Tuh Almobankha</td><td></td></tr>
+<tr><td>Chocorookie</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Chocobo_Racing" title="Chocobo Racing">Chocobo Racing</a></td><td>Tuh Almobankha</td><td></td></tr>
+<tr><td>Clumsy Cleaver</td><td><a href="https://www.bg-wiki.com/ffxi/Monster_Rearing" title="Monster Rearing">Monster Rearing</a> : Put down 10 monsters.</td><td>Debadle-Levadle</td><td></td></tr>
+<tr><td>Confident Caretaker</td><td><a href="https://www.bg-wiki.com/ffxi/Monster_Rearing" title="Monster Rearing">Monster Rearing</a> : Raise 100 monsters.</td><td>Debadle-Levadle</td><td></td></tr>
+<tr><td>Conqueror of Abyssea</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Abyssea#Goal_Tracking" title="Abyssea">Abyssea#Goal_Tracking</a> : 8 zones completed.</td><td>Zuah Lepahnyu</td><td></td></tr>
+<tr><td>Copper Hook</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Fish_Ranking" title="Fish Ranking">Fish Ranking</a> : Place 4th to 10th</td><td>Yulon-Polon</td><td></td></tr>
+<tr><td>Cracker of the Secret Code</td><td>Quest : <a href="https://www.bg-wiki.com/ffxi/Secret_of_the_Damp_Scroll" title="Secret of the Damp Scroll">Secret of the Damp Scroll</a></td><td>Quntsu-Nointsu</td><td></td></tr>
+<tr><td>Crystal Stakes Cupholder</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Chocobo_Racing" title="Chocobo Racing">C1 Crystal Stakes race</a> 1st place</td><td>Tuh Almobankha</td><td></td></tr>
+<tr><td>Cultivated Coddler</td><td><a href="https://www.bg-wiki.com/ffxi/Monster_Rearing" title="Monster Rearing">Monster Rearing</a> : Interact with the beast 500 times.</td><td>Debadle-Levadle</td><td></td></tr>
+<tr><td>Curiosity Shop Owner</td><td>Item : <a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Boneworker%27s_Signboard" title="Boneworker's Signboard">Boneworker's Signboard</a></td><td>Burute-Sorute</td><td></td></tr>
+<tr><td>Devastator of Abyssea</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Abyssea#Goal_Tracking" title="Abyssea">Abyssea#Goal_Tracking</a> : 5 zones completed.</td><td>Zuah Lepahnyu</td><td></td></tr>
+<tr><td>Disciple of Justice</td><td>Quest : <a href="https://www.bg-wiki.com/ffxi/Requiem_of_Sin" title="Requiem of Sin">Requiem of Sin</a></td><td>Aligi-Kufongi</td><td></td></tr>
+<tr><td>Disciplined Dissector</td><td><a href="https://www.bg-wiki.com/ffxi/Monster_Rearing" title="Monster Rearing">Monster Rearing</a> : Put down 100 monsters</td><td>Debadle-Levadle</td><td></td></tr>
+<tr><td>Disperser of Darkness</td><td>Battlefield : <a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/The_Buried_God" title="The Buried God">The Buried God</a></td><td>Tamba-Namba</td><td></td></tr>
+<tr><td>Durinn Deceiver</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Durinn" title="Durinn">Durinn</a></td><td>Zuah Lepahnyu</td><td>Abyssea Enemy</td></tr>
+<tr><td>Eccentricity Expunger</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Eccentric_Eve" title="Eccentric Eve">Eccentric Eve</a></td><td>Zuah Lepahnyu</td><td>Abyssea Enemy</td></tr>
+<tr><td>Ender of Idolatry</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Tzee_Xicu_the_Manifest" title="Tzee Xicu the Manifest">Tzee Xicu the Manifest</a></td><td>Tamba-Namba</td><td>Non-Abyssea Enemy</td></tr>
+<tr><td>Epic Heroine</td><td>Battlefield : <a href="https://www.bg-wiki.com/ffxi/Heroines%27_Holdfast" title="Heroines' Holdfast">Heroines' Holdfast</a></td><td></td><td></td></tr>
+<tr><td>Established Examiner</td><td><a href="https://www.bg-wiki.com/ffxi/Monster_Rearing" title="Monster Rearing">Monster Rearing</a> : Put down 1000 monsters.</td><td>Debadle-Levadle</td><td></td></tr>
+<tr><td>Every Ilm a Heroine</td><td>Battlefield : <a href="https://www.bg-wiki.com/ffxi/Letter_from_Reisenjima_(Battlefield)" title="Letter from Reisenjima (Battlefield)">Letter from Reisenjima (Battlefield)</a></td><td></td><td></td></tr>
+<tr><td>Exalted Fisherman</td><td>Quest : <a href="https://www.bg-wiki.com/ffxi/Fish_Favors_the_Bold" title="Fish Favors the Bold">Fish Favors the Bold</a></td><td>Shupah Mujuuk</td><td></td></tr>
+<tr><td>Excommunicate of Kazham</td><td>Quest : <a href="https://www.bg-wiki.com/ffxi/Everyone%27s_Grudging" title="Everyone's Grudging">Everyone's Grudging</a></td><td>Eron-Tomaron</td><td></td></tr>
+<tr><td>Extremely Discerning Individual</td><td>Quest : <a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/A_Discerning_Eye" title="A Discerning Eye">A Discerning Eye</a></td><td>Eron-Tomaron</td><td></td></tr>
+<tr><td>Fellow Fortifier</td><td>Quest : <a href="https://www.bg-wiki.com/ffxi/Clash_of_the_Comrades" title="Clash of the Comrades">Clash of the Comrades</a></td><td>Tuh Almobankha</td><td></td></tr>
+<tr><td>Final Balli☆☆☆☆star</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ballista" title="Ballista">Ballista</a> <a class="image" href="https://www.bg-wiki.com/ffxi/File:Verification.png" title="Verification Needed"></a></td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Fish Whisperer</td><td>Quest : <a href="https://www.bg-wiki.com/ffxi/Thanks_for_All_the_Fish" title="Thanks for All the Fish">Thanks for All the Fish</a></td><td></td><td></td></tr>
+<tr><td>Fishmonger Owner</td><td>Item : <a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Fisherman%27s_Signboard" title="Fisherman's Signboard">Fisherman's Signboard</a></td><td>Burute-Sorute</td><td></td></tr>
+<tr><td>Fistule Drainer</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Fistule" title="Fistule">Fistule</a></td><td>Zuah Lepahnyu</td><td>Abyssea Enemy</td></tr>
+<tr><td>Forge Fanatic</td><td>Item : <a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Blacksmith%27s_Apron" title="Blacksmith's Apron">Blacksmith's Apron</a></td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Formula Fiddler</td><td>Item : <a href="https://www.bg-wiki.com/ffxi/Caduceus" title="Caduceus">Caduceus</a></td><td>Styi Palneh</td><td></td></tr>
+<tr><td>Fortune&#39;s Favorite</td><td>Unobtainable <a class="image" href="https://www.bg-wiki.com/ffxi/File:Verification.png" title="Verification Needed"></a></td><td></td><td></td></tr>
+<tr><td>Founder&#39;s Pride</td><td>Battlefield : <a href="https://www.bg-wiki.com/ffxi/Oathsworn_Blade_(Battlefield)" title="Oathsworn Blade (Battlefield)">Oathsworn Blade (Battlefield)</a></td><td>Willah Maratahya</td><td></td></tr>
+<tr><td>Friend of Abyssea</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Abyssea#Goal_Tracking" title="Abyssea">Abyssea#Goal_Tracking</a> : 2 zones completed.</td><td>Zuah Lepahnyu</td><td></td></tr>
+<tr><td>Fuath Purifier</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Fuath" title="Fuath">Fuath</a></td><td></td><td>Non-Abyssea Enemy</td></tr>
+<tr><td>Fulmination Disruptor</td><td>Battlefield : <a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Trial_by_Lightning_II" title="Trial by Lightning II">Trial by Lightning II</a></td><td></td><td></td></tr>
+<tr><td>Furniture Store Owner</td><td>Item : <a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Carpenter%27s_Signboard" title="Carpenter's Signboard">Carpenter's Signboard</a></td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Giant Squimperator</td><td><a href="https://www.bg-wiki.com/ffxi/Coastal_Fishing_Net" title="Coastal Fishing Net">Coastal Fishing Net</a> : Fish 500 times.</td><td>Debadle-Levadle</td><td></td></tr>
+<tr><td>Glorious Groomer</td><td><a href="https://www.bg-wiki.com/ffxi/Monster_Rearing" title="Monster Rearing">Monster Rearing</a> : Raise 500 monsters.</td><td>Debadle-Levadle</td><td></td></tr>
+<tr><td>Goblin&#39;s Exclusive Fashion Mannequin</td><td>Quest : <a href="https://www.bg-wiki.com/ffxi/The_Goblin_Tailor" title="The Goblin Tailor">The Goblin Tailor</a></td><td>Tuh Almobankha</td><td></td></tr>
+<tr><td>Gold Balli☆☆☆☆star</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ballista" title="Ballista">Ballista</a></td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Gold Hook</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Fish_Ranking" title="Fish Ranking">Fish Ranking</a> : Place 1st.</td><td>Yulon-Polon</td><td></td></tr>
+<tr><td>Gourmand Gratifier</td><td>Item : <a href="https://www.bg-wiki.com/ffxi/Chef%27s_Hat" title="Chef's Hat">Chef's Hat</a></td><td>Burute-Sorute</td><td></td></tr>
+<tr><td>Grannus Garroter</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Grannus" title="Grannus">Grannus</a></td><td></td><td>Non-Abyssea Enemy</td></tr>
+<tr><td>Hadhayosh Halterer</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Hadhayosh" title="Hadhayosh">Hadhayosh</a></td><td>Zuah Lepahnyu</td><td>Abyssea Enemy</td></tr>
+<tr><td>Hero of Abyssea</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Abyssea#Goal_Tracking" title="Abyssea">Abyssea#Goal_Tracking</a> : 6 zones completed.</td><td>Zuah Lepahnyu</td><td></td></tr>
+<tr><td>Hide Handler</td><td>Item : <a href="https://www.bg-wiki.com/ffxi/Tanner%27s_Gloves" title="Tanner's Gloves">Tanner's Gloves</a></td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>High Roller</td><td>Unobtaintable <a class="image" href="https://www.bg-wiki.com/ffxi/File:Verification.png" title="Verification Needed"></a></td><td></td><td></td></tr>
+<tr><td>Honored Horticulturist</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Mog_Garden" title="Mog Garden">Mog Garden</a> : Enter 500 times.</td><td>Debadle-Levadle</td><td></td></tr>
+<tr><td>Izyx Vexer</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Izyx" title="Izyx">Izyx</a></td><td></td><td>Non-Abyssea Enemy</td></tr>
+<tr><td>Jewelry Store Owner</td><td>Item : <a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Goldsmith%27s_Signboard" title="Goldsmith's Signboard">Goldsmith's Signboard</a></td><td>Styi Palneh</td><td></td></tr>
+<tr><td>Karkadann Exoculator</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Karkadann" title="Karkadann">Karkadann</a></td><td>Zuah Lepahnyu</td><td>Abyssea Enemy</td></tr>
+<tr><td>Karkinos Clawcrusher</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Karkinos" title="Karkinos">Karkinos</a></td><td>Zuah Lepahnyu</td><td>Abyssea Enemy</td></tr>
+<tr><td>Ketea Beacher</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Ketea" title="Ketea">Ketea</a></td><td>Zuah Lepahnyu</td><td>Abyssea Enemy</td></tr>
+<tr><td>Knitting Know-It-All</td><td>Item : <a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Magnifying_Spectacles" title="Magnifying Spectacles">Magnifying Spectacles</a></td><td>Burute-Sorute</td><td></td></tr>
+<tr><td>Leather Lauder</td><td>Item : <a href="https://www.bg-wiki.com/ffxi/Tanner%27s_Apron" title="Tanner's Apron">Tanner's Apron</a></td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Legendary Alchemist</td><td>Item : <a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Brewer%27s_Escutcheon" title="Brewer's Escutcheon">Brewer's Escutcheon</a></td><td></td><td></td></tr>
+<tr><td>Legendary Blacksmith</td><td>Item : <a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Smythe%27s_Escutcheon" title="Smythe's Escutcheon">Smythe's Escutcheon</a></td><td></td><td></td></tr>
+<tr><td>Legendary Boneworker</td><td>Item : <a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ossifier%27s_Escutcheon" title="Ossifier's Escutcheon">Ossifier's Escutcheon</a></td><td></td><td></td></tr>
+<tr><td>Legendary Culinarian</td><td>Item : <a href="https://www.bg-wiki.com/ffxi/Chef%27s_Escutcheon" title="Chef's Escutcheon">Chef's Escutcheon</a></td><td></td><td></td></tr>
+<tr><td>Legendary Goldsmith</td><td>Item : <a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Toreutic_Escutcheon" title="Toreutic Escutcheon">Toreutic Escutcheon</a></td><td></td><td></td></tr>
+<tr><td>Legendary Tanner</td><td>Item : <a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Beveler%27s_Escutcheon" title="Beveler's Escutcheon">Beveler's Escutcheon</a></td><td></td><td></td></tr>
+<tr><td>Legendary Weaver</td><td>Item : <a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Plaiter%27s_Escutcheon" title="Plaiter's Escutcheon">Plaiter's Escutcheon</a></td><td></td><td></td></tr>
+<tr><td>Legendary Woodworker</td><td>Item : <a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Joiner%27s_Escutcheon" title="Joiner's Escutcheon">Joiner's Escutcheon</a></td><td></td><td></td></tr>
+<tr><td>Leviauthority</td><td><a href="https://www.bg-wiki.com/ffxi/Coastal_Fishing_Net" title="Coastal Fishing Net">Coastal Fishing Net</a> : Fish 1000 times.</td><td>Debadle-Levadle</td><td></td></tr>
+<tr><td>Lifecycler</td><td>Quest : <a href="https://www.bg-wiki.com/ffxi/Treasures_of_the_Earth" title="Treasures of the Earth">Treasures of the Earth</a></td><td></td><td></td></tr>
+<tr><td>Lilith Liquidator</td><td>Battlefield : <a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Maiden_of_the_Dusk_II" title="Maiden of the Dusk II">Maiden of the Dusk II</a></td><td></td><td></td></tr>
+<tr><td>Loom Lunatic</td><td>Item : <a href="https://www.bg-wiki.com/ffxi/Weaver%27s_Apron" title="Weaver's Apron">Weaver's Apron</a></td><td>Burute-Sorute</td><td></td></tr>
+<tr><td>Lumber Lather</td><td>Item : <a href="https://www.bg-wiki.com/ffxi/Carpenter%27s_Apron" title="Carpenter's Apron">Carpenter's Apron</a></td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Lusca Debunker</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Lusca" title="Lusca">Lusca</a></td><td>Zuah Lepahnyu</td><td>Abyssea Enemy</td></tr>
+<tr><td>Lux Ex Tenebris</td><td>Battlefield : <a href="https://www.bg-wiki.com/ffxi/Unafraid_of_the_Dark" title="Unafraid of the Dark">Unafraid of the Dark</a></td><td></td><td></td></tr>
+<tr><td>Master of All</td><td>Battlefield: <a href="https://www.bg-wiki.com/ffxi/Wings_of_War_(Battlefield)" title="Wings of War (Battlefield)">Wings of War</a> <a class="image" href="https://www.bg-wiki.com/ffxi/File:Verification.png" title="Verification Needed"></a></td><td></td><td></td></tr>
+<tr><td>Melisseus Domesticator</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Melisseus" title="Melisseus">Melisseus</a></td><td></td><td>Non-Abyssea Enemy</td></tr>
+<tr><td>Mimic Masher</td><td>Battlefield : <a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/A.M.A.N._Trove#The_Battle" title="A.M.A.N. Trove">A.M.A.N._Trove#The_Battle</a></td><td></td><td></td></tr>
+<tr><td>Mog Gardener</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Mog_Garden" title="Mog Garden">Mog Garden</a> : Enter 1000 times.</td><td>Debadle-Levadle</td><td></td></tr>
+<tr><td>Monke-Onke Master</td><td><a href="https://www.bg-wiki.com/ffxi/Pond_Dredger" title="Pond Dredger">Pond Dredger</a> : Fish 1000 times.</td><td>Debadle-Levadle</td><td></td></tr>
+<tr><td>Myrmecoleon Tamer</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Myrmecoleon" title="Myrmecoleon">Myrmecoleon</a></td><td></td><td>Non-Abyssea Enemy</td></tr>
+<tr><td>Mythril Balli☆☆☆star</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ballista" title="Ballista">Ballista</a> <a class="image" href="https://www.bg-wiki.com/ffxi/File:Verification.png" title="Verification Needed"></a></td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Mythril Hook</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Fish_Ranking" title="Fish Ranking">Fish Ranking</a> : Place 2nd.</td><td>Yulon-Polon</td><td></td></tr>
+<tr><td>Nightmare Illuminator</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Diabolos_Letum" title="Diabolos Letum">Diabolos Letum</a> or <a href="https://www.bg-wiki.com/ffxi/Diabolos_Nox" title="Diabolos Nox">Diabolos Nox</a> or <a href="https://www.bg-wiki.com/ffxi/Diabolos_Somnus" title="Diabolos Somnus">Diabolos Somnus</a> or <a href="https://www.bg-wiki.com/ffxi/Diabolos_Umbra" title="Diabolos Umbra">Diabolos Umbra</a></td><td></td><td>Non-Abyssea Enemy</td></tr>
+<tr><td>Nilotican Decimator</td><td>Enemy : <a class="new" href="https://www.bg-wiki.com/index.php?title=Vanquisher_Gramk-Droog&amp;action=edit&amp;redlink=1" title="Vanquisher Gramk-Droog (page does not exist)">Vanquisher Gramk-Droog</a></td><td></td><td>Non-Abyssea Enemy</td></tr>
+<tr><td>Ogopogo Overturner</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Ogopogo" title="Ogopogo">Ogopogo</a></td><td>Zuah Lepahnyu</td><td>Abyssea Enemy</td></tr>
+<tr><td>Ovni Obliterator</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Ovni" title="Ovni">Ovni</a></td><td>Zuah Lepahnyu</td><td>Abyssea Enemy</td></tr>
+<tr><td>Pantokrator Disprover</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Pantokrator" title="Pantokrator">Pantokrator</a></td><td>Zuah Lepahnyu</td><td>Abyssea Enemy</td></tr>
+<tr><td>Paradise Regained</td><td>Battlefield : <a href="https://www.bg-wiki.com/ffxi/Crystal_Paradise_(Battlefield)" title="Crystal Paradise (Battlefield)">Crystal Paradise (Battlefield)</a></td><td></td><td></td></tr>
+<tr><td>Photopticator Operator</td><td>Quest : <a href="https://www.bg-wiki.com/ffxi/Five_Seconds_of_Fame" title="Five Seconds of Fame">Five Seconds of Fame</a></td><td>Koyol-Futenol</td><td></td></tr>
+<tr><td>Potion Potentate</td><td>Item : <a href="https://www.bg-wiki.com/ffxi/Alchemist%27s_Apron" title="Alchemist's Apron">Alchemist's Apron</a></td><td>Styi Palneh</td><td></td></tr>
+<tr><td>Preventer of the Second Coming</td><td>Battlefield : <a href="https://www.bg-wiki.com/ffxi/Black_And_White" title="Black And White">Black And White</a></td><td></td><td></td></tr>
+<tr><td>Pulverizer Dismantler</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Ironclad_Pulverizer" title="Ironclad Pulverizer">Ironclad Pulverizer</a></td><td>Zuah Lepahnyu</td><td>Abyssea Enemy</td></tr>
+<tr><td>Ra&#39;Kaznar Exemplar</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Skirmish" title="Skirmish">Skirmish</a> : Ra'Kaznar Simulacrum (Torso V)</td><td>Debadle-Levadle</td><td></td></tr>
+<tr><td>Raptor Wrangler</td><td>Quest : <a href="https://www.bg-wiki.com/ffxi/Full_Speed_Ahead!" title="Full Speed Ahead!">Full Speed Ahead!</a></td><td></td><td></td></tr>
+<tr><td>Respected Ruffler</td><td><a href="https://www.bg-wiki.com/ffxi/Monster_Rearing" title="Monster Rearing">Monster Rearing</a> : Interact with the beast 1000 times.</td><td>Debadle-Levadle</td><td></td></tr>
+<tr><td>Restaurant Owner</td><td>Item : <a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Culinarian%27s_Signboard" title="Culinarian's Signboard">Culinarian's Signboard</a></td><td>Burute-Sorute</td><td></td></tr>
+<tr><td>River Regent</td><td><a href="https://www.bg-wiki.com/ffxi/Pond_Dredger" title="Pond Dredger">Pond Dredger</a> : Fish 500 times.</td><td>Debadle-Levadle</td><td></td></tr>
+<tr><td>Rook Buster</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ballista" title="Ballista">Ballista</a> <a class="image" href="https://www.bg-wiki.com/ffxi/File:Verification.png" title="Verification Needed"></a></td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Ruminator Confounder</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Ruminator" title="Ruminator">Ruminator</a></td><td>Zuah Lepahnyu</td><td>Abyssea Enemy</td></tr>
+<tr><td>Sable★Star</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ballista#Chevrons" title="Ballista">Ballista#Chevrons</a> : Black Mage.</td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Sagacious★Star</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ballista#Chevrons" title="Ballista">Ballista#Chevrons</a> : Scholar.</td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Saintly★Star</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ballista#Chevrons" title="Ballista">Ballista#Chevrons</a> : Paladin.</td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Sapphire★Star</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ballista#Chevrons" title="Ballista">Ballista#Chevrons</a> : Blue Mage.</td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Satiator Depriver</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Hadal_Satiator" title="Hadal Satiator">Hadal Satiator</a></td><td>Zuah Lepahnyu</td><td>Abyssea Enemy</td></tr>
+<tr><td>Savage★Star</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ballista#Chevrons" title="Ballista">Ballista#Chevrons</a> : Beastmaster.</td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Savior of Abyssea</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Abyssea#Goal_Tracking" title="Abyssea">Abyssea#Goal_Tracking</a> : 9 zones completed.</td><td>Zuah Lepahnyu</td><td></td></tr>
+<tr><td>Savior of Knowledge</td><td>Quest : <a href="https://www.bg-wiki.com/ffxi/Early_Bird_Catches_the_Bookworm" title="Early Bird Catches the Bookworm">Early Bird Catches the Bookworm</a></td><td>Burute-Sorute</td><td></td></tr>
+<tr><td>Scarlet★Star</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ballista#Chevrons" title="Ballista">Ballista#Chevrons</a> : Red Mage.</td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Scenic Snapshotter</td><td>Quest : <a href="https://www.bg-wiki.com/ffxi/Get_the_Picture" title="Get the Picture">Get the Picture</a></td><td>Koyol-Futenol</td><td></td></tr>
+<tr><td>Searing★Star</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ballista#Chevrons" title="Ballista">Ballista#Chevrons</a> : Warrior.</td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Severer Dismantler</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Ironclad_Severer" title="Ironclad Severer">Ironclad Severer</a></td><td>Zuah Lepahnyu</td><td>Abyssea Enemy</td></tr>
+<tr><td>Shadowy★Star</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ballista#Chevrons" title="Ballista">Ballista#Chevrons</a> : Dark Knight.</td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Shell Scrimshander</td><td>Item : <a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Boneworker%27s_Apron" title="Boneworker's Apron">Boneworker's Apron</a></td><td>Burute-Sorute</td><td></td></tr>
+<tr><td>Shoeshop Owner</td><td>Item : <a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Tanner%27s_Signboard" title="Tanner's Signboard">Tanner's Signboard</a></td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Silver Balli☆☆star</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ballista#Chevrons" title="Ballista">Ballista#Chevrons</a> : 3rd place.</td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Silver Hook</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Fish_Ranking" title="Fish Ranking">Fish Ranking</a> : Place 3rd.</td><td>Yulon-Polon</td><td></td></tr>
+<tr><td>Silver Smelter</td><td>Item : <a href="https://www.bg-wiki.com/ffxi/Goldsmith%27s_Apron" title="Goldsmith's Apron">Goldsmith's Apron</a></td><td>Styi Palneh</td><td></td></tr>
+<tr><td>Singing★Star</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ballista#Chevrons" title="Ballista">Ballista#Chevrons</a> : Bard.</td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Slicing★Star</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ballista#Chevrons" title="Ballista">Ballista#Chevrons</a> : Samurai.</td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Smiter of the Shadow</td><td>Quest : <a href="https://www.bg-wiki.com/ffxi/Fiat_Lux" title="Fiat Lux">Fiat Lux</a></td><td>Tamba-Namba</td><td></td></tr>
+<tr><td>Sneaking★Star</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ballista#Chevrons" title="Ballista">Ballista#Chevrons</a> : Ninja.</td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Sniping★Star</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ballista#Chevrons" title="Ballista">Ballista#Chevrons</a> : Ranger.</td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Sonic★Star</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ballista#Chevrons" title="Ballista">Ballista#Chevrons</a> : Thief.</td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Soothing★Star</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ballista#Chevrons" title="Ballista">Ballista#Chevrons</a> : White Mage.</td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Spearing★Star</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ballista#Chevrons" title="Ballista">Ballista#Chevrons</a> : Dragoon.</td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Spiritual★Star</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ballista#Chevrons" title="Ballista">Ballista#Chevrons</a> : Geomancer.</td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Spoilsport</td><td>Quest : <a href="https://www.bg-wiki.com/ffxi/Let_Sleeping_Dogs_Lie" title="Let Sleeping Dogs Lie">Let Sleeping Dogs Lie</a></td><td>Burute-Sorute</td><td></td></tr>
+<tr><td>Sprightly★Star</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ballista#Chevrons" title="Ballista">Ballista#Chevrons</a> : Dancer.</td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Stippling★Star</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ballista#Chevrons" title="Ballista">Ballista#Chevrons</a> : Rune Fencer.</td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Stormer of Abyssea</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Abyssea#Goal_Tracking" title="Abyssea">Abyssea#Goal_Tracking</a> : 4 zones completed.</td><td>Zuah Lepahnyu</td><td></td></tr>
+<tr><td>Striking★Star</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ballista#Chevrons" title="Ballista">Ballista#Chevrons</a> : Monk.</td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Subduer of the Mamool Ja</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Mamook_Incursion" title="Mamook Incursion">Mamook Incursion</a> <a class="image" href="https://www.bg-wiki.com/ffxi/File:Verification.png" title="Verification Needed"></a></td><td>Koyol-Futenol</td><td></td></tr>
+<tr><td>Subduer of the Trolls</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Halvung_Invasion" title="Halvung Invasion">Halvung Invasion</a> <a class="image" href="https://www.bg-wiki.com/ffxi/File:Verification.png" title="Verification Needed"></a></td><td>Koyol-Futenol</td><td></td></tr>
+<tr><td>Subduer of the Undead Swarm</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Lamia_Reprisal" title="Lamia Reprisal">Lamia Reprisal</a> <a class="image" href="https://www.bg-wiki.com/ffxi/File:Verification.png" title="Verification Needed"></a></td><td>Koyol-Futenol</td><td></td></tr>
+<tr><td>Suchian Feller</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Brash_Gramk-Droog" title="Brash Gramk-Droog">Brash Gramk-Droog</a></td><td>Debadle-Levadle</td><td>Non-Abyssea Enemy</td></tr>
+<tr><td>Summoning★Star</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ballista#Chevrons" title="Ballista">Ballista#Chevrons</a> : Summoner.</td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Superhero</td><td>Battlefield : <a href="https://www.bg-wiki.com/ffxi/Heroes_Combat" title="Heroes Combat">Heroes Combat</a></td><td>Tuh Almobankha</td><td></td></tr>
+<tr><td>Surging★Star</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ballista#Chevrons" title="Ballista">Ballista#Chevrons</a> : Corsair.</td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Svaha Striker</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Svaha" title="Svaha">Svaha</a></td><td></td><td>Non-Abyssea Enemy</td></tr>
+<tr><td>Swarminator</td><td>Quest : <a href="https://www.bg-wiki.com/ffxi/The_Swarm" title="The Swarm">The Swarm</a></td><td></td><td></td></tr>
+<tr><td>Swaying★Star</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Ballista#Chevrons" title="Ballista">Ballista#Chevrons</a> : Puppetmaster.</td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Sword Saint</td><td>Quest : <a href="https://www.bg-wiki.com/ffxi/Epiphany" title="Epiphany">Epiphany</a></td><td></td><td></td></tr>
+<tr><td>Sworn to the Dark Divinity</td><td>Quest : <a href="https://www.bg-wiki.com/ffxi/A_Stygian_Pact" title="A Stygian Pact">A Stygian Pact</a></td><td>Koyol-Futenol</td><td></td></tr>
+<tr><td>The Eternal Wind</td><td>Quest : <a href="https://www.bg-wiki.com/ffxi/Remembrance_of_Flowers_Past" title="Remembrance of Flowers Past">Remembrance of Flowers Past</a></td><td></td><td></td></tr>
+<tr><td>The Sixth Serpent</td><td>Battlefield : <a href="https://www.bg-wiki.com/ffxi/Mercenary_Camp" title="Mercenary Camp">Mercenary Camp</a></td><td>Koyol-Futenol</td><td></td></tr>
+<tr><td>Transcendental Tamer</td><td><a href="https://www.bg-wiki.com/ffxi/Monster_Rearing" title="Monster Rearing">Monster Rearing</a> : Raise 1000 monsters.</td><td>Debadle-Levadle</td><td></td></tr>
+<tr><td>Trinket Turner</td><td>Item : <a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Shaded_Spectacles" title="Shaded Spectacles">Shaded Spectacles</a></td><td>Styi Palneh</td><td></td></tr>
+<tr><td>Tristitia Deliverer</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Tristitia" title="Tristitia">Tristitia</a></td><td>Zuah Lepahnyu</td><td>Abyssea Enemy</td></tr>
+<tr><td>Triumphant Owner</td><td>50 <a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Chocobo_Racing" title="Chocobo Racing">Chocobo Racing</a> wins</td><td>Tuh Almobankha</td><td></td></tr>
+<tr><td>Unsung Heroine</td><td>Battlefield : <a href="https://www.bg-wiki.com/ffxi/Heroines%27_Holdfast" title="Heroines' Holdfast">Heroines' Holdfast</a></td><td></td><td></td></tr>
+<tr><td>Usurper Deposer</td><td>Enemy : <a href="https://www.bg-wiki.com/ffxi/Usurper" title="Usurper">Usurper</a></td><td>Zuah Lepahnyu</td><td>Abyssea Enemy</td></tr>
+<tr><td>Venerated Adventurer</td><td><a href="https://www.bg-wiki.com/ffxi/Vana%27Bout" title="Vana'Bout">Vana'Bout</a> : Top 10 players.</td><td></td><td></td></tr>
+<tr><td>Very Discerning Individual</td><td>Quest : <a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/A_Discerning_Eye" title="A Discerning Eye">A Discerning Eye</a></td><td>Moozo-Koozo</td><td></td></tr>
+<tr><td>Victorious Owner</td><td>25 <a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Chocobo_Racing" title="Chocobo Racing">Chocobo Racing</a> wins</td><td>Tuh Almobankha</td><td></td></tr>
+<tr><td>Visitor to Abyssea</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Abyssea#Goal_Tracking" title="Abyssea">Abyssea#Goal_Tracking</a> : 1 zone completed.</td><td>Zuah Lepahnyu</td><td></td></tr>
+<tr><td>Warrior of Abyssea</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Abyssea#Goal_Tracking" title="Abyssea">Abyssea#Goal_Tracking</a> : 3 zones completed.</td><td>Zuah Lepahnyu</td><td></td></tr>
+<tr><td>Waterway Exemplar</td><td><a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Skirmish" title="Skirmish">Skirmish</a> : Rala Simulacrum (Torso V)</td><td>Debadle-Levadle</td><td></td></tr>
+<tr><td>Winning Owner</td><td>10 <a class="mw-redirect" href="https://www.bg-wiki.com/ffxi/Chocobo_Racing" title="Chocobo Racing">Chocobo Racing</a> wins</td><td>Tuh Almobankha</td><td></td></tr>
+<tr><td>Wood Worshiper</td><td>Item : <a href="https://www.bg-wiki.com/ffxi/Carpenter%27s_Gloves" title="Carpenter's Gloves">Carpenter's Gloves</a></td><td></td><td></td></tr>
+<tr><td>Worthy of Trust</td><td>Quest : <a href="https://www.bg-wiki.com/ffxi/Regaining_Trust" title="Regaining Trust">Regaining Trust</a></td><td>Tuh Almobankha</td><td></td></tr>
+<tr><td>Zeroine to Heroine</td><td>Battlefield : <a href="https://www.bg-wiki.com/ffxi/Letter_from_Iroha_(Battlefield)" title="Letter from Iroha (Battlefield)">Letter from Iroha (Battlefield)</a></td><td></td><td></td></tr>
+  </tbody>
+</table>
+
+<script>
+function updateRowCount() {
+  const table = document.getElementById("titlesTable");
+  const count = table.tBodies[0].rows.length;
+  document.getElementById("rowCount").innerText = "Rows: " + count;
+}
+
+function sortTable(col) {
+  const table = document.getElementById("titlesTable");
+  let rows = Array.from(table.tBodies[0].rows);
+
+  const asc =
+    table.getAttribute("data-sort-col") != col ||
+    table.getAttribute("data-sort-dir") !== "asc";
+
+  table.setAttribute("data-sort-col", col);
+  table.setAttribute("data-sort-dir", asc ? "asc" : "desc");
+
+  rows.sort((a, b) => {
+    const x = a.cells[col].innerText.toLowerCase();
+    const y = b.cells[col].innerText.toLowerCase();
+    return asc ? x.localeCompare(y) : y.localeCompare(x);
+  });
+
+  rows.forEach(r => table.tBodies[0].appendChild(r));
+  updateRowCount();
+}
+
+updateRowCount();
+</script>
+
+</body>
+</html>
