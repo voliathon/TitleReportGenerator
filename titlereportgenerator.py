@@ -35,7 +35,6 @@ Ballistager
 Banneret
 Banquet Bestower
 Bloodeye Banisher
-Bloody Berserker
 Bone Beautifier
 Boutique Owner
 Bronze BalliA?â,¢star
@@ -62,15 +61,11 @@ Curiosity Shop Owner
 Devastator of Abyssea
 Disciple of Justice
 Disciplined Dissector
-Disperser of Darkness
 Durinn Deceiver
 Eccentricity Expunger
-Ender of Idolatry
-Epic Heroine
 Established Examiner
 Every Ilm a Heroine
 Exalted Fisherman
-Excommunicate of Kazham
 Extremely Discerning Individual
 Fellow Fortifier
 Final BalliA?â,¢A?â,¢A?â,¢A?â,¢star
@@ -181,7 +176,6 @@ Subduer of the Trolls
 Subduer of the Undead Swarm
 Suchian Feller
 SummoningA?Å¡Star
-Superhero
 SurgingA?Å¡Star
 Svaha Striker
 Swarminator
@@ -189,12 +183,10 @@ SwayingA?Å¡Star
 Sword Saint
 Sworn to the Dark Divinity
 The Eternal Wind
-The Sixth Serpent
 Transcendental Tamer
 Trinket Turner
 Tristitia Deliverer
 Triumphant Owner
-Unsung Heroine
 Usurper Deposer
 Venerated Adventurer
 Very Discerning Individual
@@ -217,6 +209,8 @@ def normalize_title(s: str) -> str:
     s = str(s).replace("\u2019", "'")  # curly apostrophe -> straight
     s = s.replace("A?â,¢", "")
     s = s.replace("A?Å¡", "")
+    s = s.replace("™", "")
+    s = s.replace("š", "")
     # remove common star glyphs
     s = re.sub(r"[★☆✦✩✪✫✬✭✮✯]", "", s)
     s = re.sub(r"\s+", " ", s).strip()
