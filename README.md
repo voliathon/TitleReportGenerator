@@ -23,9 +23,13 @@ Row counts are generated on page load. (This is the total number of titles you a
 ![Here is an example of a generate HTML report](https://i.imgur.com/b4kfRhC.png)
 
 If you need additional installation help:
+
 0.) Make sure you updated titlereportgenerator.py with only your missing titles.
+
 1.) Download / install python: [https://www.python.org/downloads/release/python-3142/](https://www.python.org/downloads/release/python-3142/)
+
 2.) Open an elevated command window: Start > Run > Type cmd > Right-click, select "Run as Administrator"
+
 3.) Run these commands:
 
 ```
